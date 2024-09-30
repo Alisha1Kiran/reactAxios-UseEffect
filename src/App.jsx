@@ -31,7 +31,7 @@ const App = () => {
           <Col xs lg="6">
           <Form.Select aria-label="Default select example" onChange={(choice) => setSelection(choice.target.value)}>
               <option>Open this select menu</option>
-              <option value="character">Charachter</option>
+              <option value="character">Character</option>
               <option value="episode">Episode</option>
               <option value="location">Location</option>
             </Form.Select>
